@@ -14,10 +14,10 @@ steps:
 - script: |
     sudo apt-get install terraform
     sudo git clone https://github.com/nemrood/demoterraform.git
-    cd $(System.DefaultWorkingDirectory)/demoterraform/Azure
+    sudo cd $(System.DefaultWorkingDirectory)/Azure
     terraform init
-    cd $(System.DefaultWorkingDirectory)/demoterraform/Azure
+    cd $(System.DefaultWorkingDirectory)/Azure
     terraform plan
-    cd $(System.DefaultWorkingDirectory)/demoterraform/Azure
+    cd $(System.DefaultWorkingDirectory)/Azure
     terraform apply -auto-approve
   displayName: " Terraforming the cloud !"
