@@ -25,6 +25,7 @@ variable "resource_group_name" {
 
 variable "location" {
   description = ""
+  default     = ""
 }
 
 variable "vnet_cidr" {
