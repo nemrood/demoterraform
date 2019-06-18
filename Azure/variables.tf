@@ -44,6 +44,7 @@ variable "subnet2_cidr" {
 
 variable "environment" {
   description = "Define the environment to deploy to"
+  default     = "Dev"
 }
 
 variable "vm_username" {
