@@ -12,9 +12,9 @@ pool:
 steps:
 
 - script: |
-    apt-get install terraform
-    git clone https://github.com/nemrood/demoterraform.git
-    cd $(System.DefaultWorkingDirectory)/demoterraform/Azure
+    sudo apt-get install terraform
+    sudo git clone https://github.com/nemrood/demoterraform.git
+    sudo cd $(System.DefaultWorkingDirectory)/demoterraform/Azure
     terraform init
     terraform plan
     terraform apply -auto-approve
