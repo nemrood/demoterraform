@@ -16,6 +16,6 @@ steps:
     git clone https://github.com/nemrood/demoterraform.git
     cd $(System.DefaultWorkingDirectory)/demoterraform/Azure
     terraform init
-    terraform plan -auto-approve
+    terraform plan
     terraform apply -auto-approve
     displayName: " Terraforming the cloud !"
