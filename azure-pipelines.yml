@@ -18,4 +18,4 @@ steps:
     terraform init
     terraform plan
     terraform apply -auto-approve
-    displayName: " Terraforming the cloud !"
+  displayName: " Terraforming the cloud !"
