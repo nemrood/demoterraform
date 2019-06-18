@@ -21,7 +21,7 @@ variable "tenant_id" {
 
 variable "resource_group_name" {
   description = ""
-  default     = ""
+  default     = "defaultrgnow"
 }
 
 variable "location" {
