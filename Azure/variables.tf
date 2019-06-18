@@ -20,7 +20,7 @@ variable "tenant_id" {
 }
 
 variable "resource_group_name" {
-  description = "Resource Group"
+  description = ""
   default     = ""
 }
 
